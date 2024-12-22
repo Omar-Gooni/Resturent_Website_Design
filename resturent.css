@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+:root{
+    --color1:#ff7301;
+    --color2:#192a56;
+}
+body{
+margin: 0;
+padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.header{
+  background: var(--color2);
+  padding: 20px 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+}
+.header label{
+font-size: 2em;
+color: white;
+position: absolute;
+right: 2%;
+display: none;
+
+}
+#show-menu {
+display: none;
+}
+.logo span:first-child{
+   font-size: 2em;
+   color: var(--color1);
+   text-transform: uppercase;
+  font-family: initial;
+   font-weight: 700;
+}
+.logo span:last-child{
+  font-size: 2em;
+   color: white;
+   text-transform: uppercase;
+   font-family: initial;
+   font-weight: 700;
+}
+.header .nav a{
+margin-right: 20px;
+color:white;
+font-weight: 700;
+padding: 0 10px;
+}
+.header .nav a:hover{
+background: var(--color1);
+color: white;
+padding: 10px;
+border-radius: 20px;
+}
+.home{
+padding: 7em 0 5% 5%;
+ background: linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(sp.webp);
+background-position: center;
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home h1{
+color: white;
+font-size: 4em;
+margin-bottom: 30px;
+}
+.home span{
+font-size: 4em;
+font-weight: 700;
+color: #eb630e;
+margin-bottom: 10%;
+}
+.btn{
+color: var(--color1);
+padding: 10px 10px;
+background: var(--color1);
+color: white;
+border-radius: 10px;
+border: none;
+}
+.btn:hover{
+background: var(--color2);
+color: white;
+/* padding: 0 10px; */
+
+}
+.home p{
+margin-top: 5%;
+max-width: 50%;
+color: #fff;
+margin-bottom: 10%;
+line-height: 1.5;
+}
+.home2 .container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+margin-bottom: 2%;
+
+
+/* background: var(--color1); */
+
+}
+.home2 .container .sawir img{
+width: 30rem;
+
+}
+.home2 .container .content{
+/* background: red; */
+ padding-left: 7%;
+ line-height: 2;
+}
+.home2 .container .content span{
+margin-left: 1em;
+}
+.fa-phone{
+color: var(--color2);
+font-size: 1.2em;
+}
+.fa-phone:hover{
+color: var(--color1);
+padding: 10px 10px;
+}
+#king{
+font-size: 1.2em;
+color: var(--color1);
+font-weight: 700;
+font-family: initial;
+
+}
+#king:hover{
+color: var(--color2);
+padding: 10px 10px;
+}
+.qeybta{
+background: var(--color1);
+padding: 5em;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.qeybta .qeybaha{
+text-align: center;
+color: #fff;
+font-size: 1.2em;
+}
+.qeybta .qeybaha .omar{
+font-size: 2em;
+margin-bottom: .8em;
+color: bisque;
+}
+.qeybta .qeybaha span{
+color: rgb(245, 220, 188);
+}
+.menu{
+margin-bottom: 2%;
+padding-top: 7em;
+}
+.menu h1{
+text-align: center;
+margin-bottom: 2.5em;
+font-size: 2em;
+font-weight: 700;
+font-family: initial;
+color: var(--color2);
+text-transform: capitalize;
+}
+ .box-container{
+display: flex;
+padding-left: 3%;
+padding-right: 3%;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 20px 20px;
+}
+ .box-container .box{
+flex: 1 1 20%;
+border-radius: 10px 10px;
+overflow: hidden;
+border: 1px solid gray;
+}
+ .box-container .image img{
+width: 100%;
+height: 200px;
+/* background: red; */
+}
+.box-container .box .info{
+padding: 1.1em;
+}
+.menu .box-container .box .info .dollar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: .5em;
+
+}
+ .box-container .box .info h3 , .box-container .box .info  p{
+color:gray;
+
+}
+.dollar h5{
+color:gray;
+}
+.di{
+color: var(--color1);
+}
+.fa-star{
+color: var(--color1);
+}
+.dollar h5:hover{
+color: var(--color1);
+background: var(--color2);
+padding: .8em;
+border-radius: .5em;
+
+}
+.Blog{
+/* padding: 7em; */
+margin-bottom: 2%;
+}
+.Blog h1{
+text-align: center;
+margin-bottom: 2.5em;
+font-size: 2em;
+font-weight: 700;
+font-family: initial;
+color: var(--color2);
+text-transform: capitalize;
+}
+.Blog .box-container .box .btn{
+margin-left: 3%;
+margin-top: .5em;
+}
+.Blog .box-container .box .info h5{
+margin-top: .5em;
+color: var(--color1);
+font-size: .9em;
+text-transform: capitalize;
+}
+.customer h1{
+text-align: center;
+margin-bottom: 2.5em;
+font-size: 2em;
+font-weight: 700;
+font-family: initial;
+color: var(--color2);
+text-transform: capitalize;
+margin-top: 3%;
+
+}
+.box-container .box .cost{
+padding: 0 5%;
+padding-top: 1.2em;
+background: var(--color1);
+height: 20vh;
+margin-top: 3em;
+}
+
+ .customer .box-container .box p{
+padding: 0px  1.1em;
+text-align: center;
+}
+
+.customer .box-container .box h1 {
+padding: 10px  0px;
+}
+.box-container .box .cost .image img{
+border: 5px solid white;
+border-radius: 50%;
+height: 70px;
+width: 20%;
+margin-left: 6.7em;
+margin-top: -20rem;
+}
+
+.box-container .box .cost .icons{
+margin-top: 1.2em;
+text-align: center;
+
+}
+
+.box-container .box .cost .icons i{
+padding: 0px 3%;
+color: #fff;
+}
+
+
+.footer {
+  background: var(--color2);
+}
+
+.footer .box-container{
+display: flex;
+}
+
+.footer .box-container .footer_box h3 {
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: underline;
+  font-family: initial;
+}
+
+.footer .box-container .footer_box a {
+  display: block;
+  padding: 0.8rem 0;
+  font-size: 1rem;
+  color:white;
+}
+
+.footer .box-container .footer_box a:hover {
+  color:var(--color2);
+  background: var(--color1);
+  padding: 10px;
+border-radius: 20px;
+  
+}
+
+.footer .credit {
+  text-align: center;
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+  font-size: 2rem;
+  color: #fff;
+  padding: 0.5rem;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.footer .credit span {
+  color:#da6b1d;
+}
+  
+
+
+  @media screen and (max-width: 1024px){
+  .header{
+  height: 20vh;
+  }
+.header label{
+display: inline-block;
+}
+.header .nav{
+display: none;
+width: 100%;
+position: absolute;
+top: 100%;
+left: 50%;
+margin-top:  -4%;
+color: #fff;
+}
+.header .nav a{
+display: inline;
+padding-top: 2%;
+
+}
+#show-menu:checked ~ .nav{
+display: block;
+
+}
+.home2 .container{
+flex: 1 1 100%;
+}
+ .menu .box-container .box{
+
+ flex: 1 1 40%;
+ 
+ }
+ .Blog .box-container .box{
+ 
+ flex: 1 1 40%;
+ }
+ 
+  
+  }
+    @media screen and (max-width: 768px){
+    .menu .box-container .box{
+    flex: 1 1 40%;
+    }
+    .Blog .box-container .box{
+    flex: 1 1 40%;
+    }
+  
+
+    }
+    
+
+  
+  
+
+
